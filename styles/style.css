@@ -7,10 +7,17 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header banner, section .about-details {
+    max-width: 1165px;
+}
+
 /* header styles */
-header {
-    width: 1440px;
-    font-family: Fira Sans;
+header nav {
+    max-width: 1440px;
 }
 
 header .nav-bar {
@@ -39,5 +46,100 @@ header .nav-bar button {
     line-height: 20px;
     letter-spacing: 0%;
     background-color: transparent;
+}
+
+header .nav-bar button:hover {
+    background-color: rgb(0, 106, 80);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* banner styles */
+.banner {
+    height: 510px;
+    display: flex;
+    gap: 58px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 145px;
+    border-radius: 22px;
+    background: rgb(198, 228, 214);
+    padding: 73px 91px;
+}
+
+.banner-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-bottom: 15px;  
+}
+
+.banner-title {
+    color: rgb(14, 14, 14);
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    margin-bottom: 22px; 
+}
+
+.banner button {
+    padding: 15px 31px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20x;
+    letter-spacing: 0%;
+    /* margin-bottom: 73px; */
+}
+
+.banner button:hover {
+    background: rgb(3, 1, 37);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* card section styles */
+
+section .about{
+    height: 295px;
+}
+
+section .about-details {
+    margin: 73px 145px; 
+}
+
+section .section-title {
+    color: rgb(14, 14, 14);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    margin-bottom: 29px;
+}
+
+.card-container {
+    display: flex;
+    gap: 22px;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.card-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+    padding: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 }
 
