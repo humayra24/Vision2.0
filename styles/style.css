@@ -143,3 +143,18 @@ section .section-title {
     background: rgb(255, 255, 255);
 }
 
+.card-subtitle {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
