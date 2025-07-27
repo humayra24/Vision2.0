@@ -11,8 +11,12 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
-header banner, section .about-details {
+header banner, section .about-details{
     max-width: 1165px;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* header styles */
@@ -110,7 +114,7 @@ section .about{
     height: 295px;
 }
 
-section .about-details {
+section .about-details{
     margin: 73px 145px; 
 }
 
@@ -157,4 +161,64 @@ section .section-title {
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0%;
+}
+
+/* vision section styles */
+.vision-description, .vision-details  {
+    margin-bottom: 29px;
+}
+
+.vision-details .card {
+    padding: 29px;
+}
+
+.btn-primary {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-primary:hover {
+    /* background-color: rgb(106, 0, 90); */
+    background-color: rgb(200, 125, 12);
+    color: black;
+    border: 2px solid rgb(106, 0, 90);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-1{
+    background: rgb(84, 144, 245);  
+}
+
+.btn-2{
+    background: rgb(9, 161, 92); 
+}
+
+.btn-3{
+    background: rgb(255, 194, 57);  
+}
+
+/* quote section styles */
+
+.quote-section {
+    padding: 44px 22px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.quote-section .quote-info {
+    background-image: url('../assets/quote_icon.png'), url('../assets/quote_icon.png');
+    background-repeat: no-repeat, no-repeat; 
+    background-size: 25px 50px, 25px 50px;
+    background-position: left top, 30px top;
+}
+
+.quote-section .card-description {
+    margin-top: 20px; /* Adjusted for quote icon */
 }
