@@ -10,6 +10,7 @@
 body {
     font-family: 'Fira Sans', sans-serif;
     background-color: rgb(242, 242, 242);
+    letter-spacing: 0%;
 }
 
 header banner, section .about-details{
@@ -42,7 +43,6 @@ header .nav-title {
     font-size: 29px;
     font-weight: 700;
     line-height: 35px;
-    letter-spacing: 0%;
 }
 
 header .nav-bar button {
@@ -54,7 +54,6 @@ header .nav-bar button {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0%;
     background-color: transparent;
 }
 
@@ -82,7 +81,6 @@ header .nav-bar button:hover {
     font-size: 22px;
     font-weight: 500;
     line-height: 26px;
-    letter-spacing: 0%;
     margin-bottom: 15px;  
 }
 
@@ -91,7 +89,6 @@ header .nav-bar button:hover {
     font-size: 41px;
     font-weight: 700;
     line-height: 61px;
-    letter-spacing: 0%;
     margin-bottom: 22px; 
 }
 
@@ -104,8 +101,6 @@ header .nav-bar button:hover {
     font-size: 16px;
     font-weight: 600;
     line-height: 20x;
-    letter-spacing: 0%;
-    /* margin-bottom: 73px; */
 }
 
 .banner button:hover {
@@ -129,7 +124,6 @@ section .about{
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0%;
     margin-bottom: 29px;
 }
 
@@ -158,7 +152,6 @@ section .about{
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    letter-spacing: 0%;
 }
 
 .card-description {
@@ -166,7 +159,6 @@ section .about{
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
-    letter-spacing: 0%;
 }
 
 /* vision section styles */
@@ -229,7 +221,6 @@ section .about{
 }
 
 /* Opinion section styles */
-
 .table-section {
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -285,7 +276,6 @@ th:first-child {
 }
 
 /* news section styles */
-
 .news-title-info {
     margin-bottom: 29px;
 }
@@ -319,7 +309,6 @@ th:first-child {
     font-size: 29px;
     font-weight: 700;
     line-height: 35px;
-    letter-spacing: 0%;
 }
 
 .time-separator {
@@ -357,7 +346,6 @@ th:first-child {
     gap: 22px;
     justify-content: center;
     align-items: center;
-    /* margin:  */
 }
 
 .donate-card {
@@ -386,7 +374,6 @@ th:first-child {
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0%;
 }
 
 .field{
@@ -403,7 +390,18 @@ th:first-child {
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    letter-spacing: 0%;
+}
+
+.donate-button input {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    padding: 15px 31px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 /* newsletter section styles */
@@ -462,7 +460,6 @@ th:first-child {
     font-size: 29px;
     font-weight: 700;
     line-height: 35px;
-    letter-spacing: 0%;
 }
 
 hr {
