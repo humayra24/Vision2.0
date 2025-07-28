@@ -110,7 +110,6 @@ header .nav-bar button:hover {
 }
 
 /* card section styles */
-
 section .about{
     height: 295px;
 }
@@ -197,7 +196,6 @@ section .about{
 }
 
 /* quote section styles */
-
 .quote-section {
     padding: 44px 22px;
     box-sizing: border-box;
@@ -332,7 +330,6 @@ th:first-child {
 }
 
 /* donate section styles */
-
 .donate-info {
     max-width: 1000px;
     margin: 0 auto; 
